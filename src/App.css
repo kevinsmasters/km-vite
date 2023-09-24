@@ -1,42 +1,43 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body {
+  background-color: #272846;
+  color: #AFBBBB;
+  font-size: 1.4rem;
+}
+main {
+  position: relative;
+  z-index: 10;
+}
+main #h1, main h2, main h3 {
+  color: #fff;
+}
+#palmBg {
+  position:fixed;
+  right: 0;
+  top: 200px;
+  width: 400px;
+  height: 589px;
+  background-image: url(./assets/images/moon-palm2a.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+.navbar {
+  border-bottom: 2px solid #292942;
+}
+.navbar.bg-dark-nu {
+  background-color: #1C1D31;
+}
+.navbar-brand img {
+  opacity: .60;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255,255,255,.75);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+#homeHero.bg-dark-nu {
+  background-color: #1C1D31;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+footer#contact {
+  position: relative;
+  z-index: 10;
 }
