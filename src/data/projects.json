@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Calculatorenator",
+    "src": "calc-thumb.png",
+    "link": "https://calculatorenator.netlify.app/",
+    "text": "Calculator App coded in React and based on a project for freeCodeCamp Front End Development Libraries certification."
+  },
+  {
+    "title": "Angular Financial Chart",
+    "src": "GitHub-Mark-120px.png",
+    "link": "https://github.com/kevinsmasters/ng-financial-chart",
+    "text": "Using JSON data to display chart of revenue vs. cancellations."
+  },
+  {
+    "title": "Rivertide Retreats",
+    "src": "rivertide-jamaica.png",
+    "link": "https://rivertidejamaicaretreats.org/home",
+    "text": "Angular app. Features customized form components connecting to their Paypal ecommerce widgets."
+  },
+  {
+    "title": "Asana Project Status",
+    "src": "GitHub-Mark-120px.png",
+    "link": "https://github.com/kevinsmasters/asana-project-status",
+    "text": "Python script to query Asana projects and save to CSV."
+  },
+  {
+    "title": "Taconic Biosciences Health Standard Selector",
+    "src": "taconic-health-standard-selector.png",
+    "link": "https://www.taconic.com/quality/animal-health/health-standards/health-standard-selector/",
+    "text": "JavaScript/CSS/HTML widget to help a researcher select the best animal model health standard assuming pathogen exclusion criteria."
+  },
+  {
+    "title": "AMNH Perissodactyls",
+    "src": "amnh-perissodactyls.png",
+    "link": "https://research.amnh.org/paleontology/perissodactyl/",
+    "text": "American Museum of Natural History Perissodactyls Research Site<br />Drupal custom template and site architecture."
+  },
+  {
+    "title": "Ulster County NY",
+    "src": "https://ulstercountyny.gov/",
+    "link": "ulstercounty-ny.png",
+    "text": "Ulster County Government Website<br />Drupal custom template, site architecture, custom views and interactive features."
+  },
+  {
+    "title": "Taconic Biosciences Resources",
+    "src": "taconic-resources.png",
+    "link": "https://www.taconic.com/resources/",
+    "text": "Searchable library of Taconic Biosciences marketing materials.<br />Angular app utilizing Node API connected to MySQL database."
+  },
+  {
+    "title": "Cross Valley Health and Medicine",
+    "src": "cross-valley.png",
+    "link": "https://crossvalleyhealth.com/",
+    "text": "Custom Bootstrap based WordPress theme. Includes accessibility enhancements and Spanish/English language translation."
+  }
+]
