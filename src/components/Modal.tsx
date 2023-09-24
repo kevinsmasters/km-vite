@@ -1,4 +1,4 @@
-export default function Modal({ stateChanger = { setShowModal } }) {
+const Modal = (stateChanger: boolean) => {
   return (
     <>
       <div className="row">
@@ -9,13 +9,13 @@ export default function Modal({ stateChanger = { setShowModal } }) {
               type="button"
               className="btn-close"
               data-bs-dismiss="alert"
-              onClick={() => stateChanger(false)}
             ></button>
-            <strong>Thank You!</strong> You sent me an email.
+            <strong>Thank You!</strong> You sent me an email. {stateChanger}
           </div>
         </div>
         <div className="col-md-3"></div>
       </div>
     </>
   );
-}
+};
+export default Modal;

@@ -2,6 +2,7 @@ import { FormEvent } from "react";
 import { useState } from "react";
 import { send } from "emailjs-com";
 import { init } from "@emailjs/browser";
+import Modal from "./Modal";
 export const Contact = () => {
   init("18q8DZQ5-7NPEk1KH");
   const [toSend, setToSend] = useState<{
@@ -102,7 +103,7 @@ export const Contact = () => {
         </div>
         <div className="col-md-3"></div>
       </div>
-      {showModal ? <p>show modal</p> : null}
+      {showModal ? <Modal stateChanger={setShowModal} /> : null}
       <style jsx>
         {`
           .btn-dark-navy {
