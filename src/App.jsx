@@ -1,12 +1,12 @@
 import "bootswatch/dist/solar/bootstrap.min.css";
-import "./App.css";
-import { HomeHero } from "./components/HomeHero";
+import './App.css';
 import { MainNav } from "./components/MainNav";
+import { HomeHero } from "./components/HomeHero";
 import { About } from "./components/About";
-// import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 
 function App() {
+
   return (
     <>
       <MainNav />
@@ -22,13 +22,12 @@ function App() {
         <main style={{ paddingTop: 120 }}>
           <HomeHero />
           <About />
-          {/* <Projects /> */}
           <Contact />
         </main>
         <div id="palmBg"></div>
       </div>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
