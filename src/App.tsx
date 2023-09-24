@@ -3,7 +3,7 @@ import "./App.css";
 import { HomeHero } from "./components/HomeHero";
 import { MainNav } from "./components/MainNav";
 import { About } from "./components/About";
-import { Projects } from "./components/Projects";
+// import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 
 function App() {
