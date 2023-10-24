@@ -8,18 +8,14 @@
   {
     "title": "Angular Financial Chart",
     "src": "GitHub-Mark-120px.png",
+    "width": 120,
     "link": "https://github.com/kevinsmasters/ng-financial-chart",
     "text": "Using JSON data to display chart of revenue vs. cancellations."
   },
   {
-    "title": "Rivertide Retreats",
-    "src": "rivertide-jamaica.png",
-    "link": "https://rivertidejamaicaretreats.org/home",
-    "text": "Angular app. Features customized form components connecting to their Paypal ecommerce widgets."
-  },
-  {
     "title": "Asana Project Status",
     "src": "GitHub-Mark-120px.png",
+    "width": 120,
     "link": "https://github.com/kevinsmasters/asana-project-status",
     "text": "Python script to query Asana projects and save to CSV."
   },
@@ -37,8 +33,8 @@
   },
   {
     "title": "Ulster County NY",
-    "src": "https://ulstercountyny.gov/",
-    "link": "ulstercounty-ny.png",
+    "link": "https://ulstercountyny.gov/",
+    "src": "ulstercounty-ny.png",
     "text": "Ulster County Government Website<br />Drupal custom template, site architecture, custom views and interactive features."
   },
   {
